@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <AnchorPane layoutX="-90.0" layoutY="-144.0" prefHeight="910.0" prefWidth="1053.0">
+         <children>
+            <Rectangle id="track" arcHeight="5.0" arcWidth="5.0" fill="#d8dde1" height="674.0" layoutX="414.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="316.0" />
+            <Line endX="94.79998779296875" endY="307.800048828125" layoutX="478.0" layoutY="469.0" startX="94.79998779296875" startY="-299.4000244140625" />
+            <ImageView fx:id="myimgview" fitHeight="367.0" fitWidth="304.0" layoutX="96.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img1.png" />
+               </image></ImageView>
+            <ImageView fitHeight="400.0" fitWidth="288.0" layoutX="744.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

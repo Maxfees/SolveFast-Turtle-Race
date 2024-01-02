@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="0.0" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <AnchorPane fx:id="anchorpane" layoutX="392.0" prefHeight="751.0" prefWidth="685.0">
+         <children>
+            <ImageView fx:id="img2" fitHeight="231.0" fitWidth="176.0" layoutX="108.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img1" fitHeight="150.0" fitWidth="185.0" layoutX="104.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="startbutton" layoutX="468.0" layoutY="427.0" mnemonicParsing="false" onAction="#startGame" prefHeight="42.0" prefWidth="77.0" text="Start" />
+            <ImageView fx:id="img3" fitHeight="150.0" fitWidth="200.0" layoutX="131.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img4" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="108.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+            <ImageView fx:id="img5" fitHeight="150.0" fitWidth="200.0" layoutX="128.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i5.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img6" fitHeight="150.0" fitWidth="200.0" layoutX="119.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i6.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img7" fitHeight="150.0" fitWidth="200.0" layoutX="130.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i7.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img8" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i8.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img9" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i9.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img10" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i10.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img11" fitHeight="150.0" fitWidth="200.0" layoutX="119.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i11.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img12" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i12.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img13" fitHeight="150.0" fitWidth="200.0" layoutX="130.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i13.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img14" fitHeight="150.0" fitWidth="200.0" layoutX="126.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i14.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img15" fitHeight="118.0" fitWidth="200.0" layoutX="108.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@i15.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="myimgview" fitHeight="84.0" fitWidth="87.0" layoutX="81.0" layoutY="651.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im1" fitHeight="140.0" fitWidth="193.0" layoutX="802.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p1.png" />
+               </image></ImageView>
+            <ImageView fx:id="im2" fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im3" fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im4" fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im5" fitHeight="150.0" fitWidth="200.0" layoutX="809.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p5.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im6" fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p6.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im7" fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p7.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im8" fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p8.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im9" fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p9.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im10" fitHeight="150.0" fitWidth="200.0" layoutX="792.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p10.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im11" fitHeight="150.0" fitWidth="200.0" layoutX="788.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p11.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im12" fitHeight="150.0" fitWidth="200.0" layoutX="781.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p12.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im13" fitHeight="150.0" fitWidth="200.0" layoutX="788.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p13.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im14" fitHeight="150.0" fitWidth="200.0" layoutX="788.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p14.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im15" fitHeight="150.0" fitWidth="200.0" layoutX="788.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@p15.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="myimgview2" fitHeight="84.0" fitWidth="87.0" layoutX="192.0" layoutY="651.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="398.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="gamepg" fitHeight="100.0" fitWidth="100.0" layoutX="273.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@gamepage.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
